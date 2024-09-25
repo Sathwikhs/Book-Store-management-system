@@ -9,7 +9,7 @@ app.use("/books", router); // localhost:5000/books
 
 mongoose
   .connect(
-    "mongodb+srv://sathwikhs235:8ULKCveEJb7fwrr2@cluster0.fsoq9.mongodb.net/bookstoreretryWrites=true&w=majority&appName=Cluster0"
+    "uri"
   )
   .then(() => console.log("Connected To Database"))
   .then(() => {
